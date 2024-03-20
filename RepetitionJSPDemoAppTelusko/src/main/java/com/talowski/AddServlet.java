@@ -25,6 +25,7 @@ public class AddServlet extends HttpServlet{
 		
 		PrintWriter out = res.getWriter();
 		out.println("result is " + k);
+		
 	}
 	/*
 	 * public void doPost(HttpServletRequest req, HttpServletResponse res) throws
